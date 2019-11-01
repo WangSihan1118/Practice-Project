@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=StegoCoder
+comment0.text=\r\n\ Stego\ Coder.\r\n\ utility\ class\r\n\ \r\n\ @Wang\ Sihan\r\n\ 9/10/2019\r\n
+comment1.params=
+comment1.target=StegoCoder()
+comment2.params=cover\ secret
+comment2.target=StegoImage\ encrypt(StegoImage,\ StegoImage)
+comment2.text=\r\n\ Class\ methods\r\n
+comment3.params=message
+comment3.target=StegoImage\ decrypt(StegoImage)
+numComments=4

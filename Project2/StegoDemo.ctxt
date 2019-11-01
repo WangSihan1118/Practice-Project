@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=StegoDemo
+comment0.text=\r\n\ Use\ cases\ to\ demonstrate\ Stego\ project\ operations\r\n\ To\ run\ this\ application\ construct\ a\ demo\ object\ and\ \r\n\ then\ call\ the\ demo\ methods.\r\n\ \r\n\ @author\ \ Rachel\ Cardell-Oliver\r\n\ @version\ Sep\ 2019\r\n
+comment1.params=
+comment1.target=StegoDemo()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Demo\r\n
+comment2.params=
+comment2.target=void\ demoDisplay()
+comment2.text=\ \r\n\ Demo\ for\ setting\ up\ the\ stego\ display\r\n
+comment3.params=
+comment3.target=void\ demoEncodeDecode()
+comment3.text=\ \r\n\ Demo\ for\ encrypting\ and\ decrypting\r\n
+comment4.params=
+comment4.target=void\ demoDecryptA()
+comment4.text=\ \r\n\ Demo\ for\ learning\ a\ secret\ from\ a\ message\r\n
+comment5.params=
+comment5.target=void\ demoDecryptB()
+comment5.text=\ \r\n\ Another\ demo\ for\ learning\ a\ secret\ from\ a\ message\r\n
+numComments=6
