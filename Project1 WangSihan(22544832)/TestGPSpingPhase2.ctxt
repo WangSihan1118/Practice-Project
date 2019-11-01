@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=TestGPSpingPhase2
+comment0.text=\r\n\ The\ test\ class\ TestGPSpingPhase2.\r\n\ For\ GPSping\ phase\ 2\ tasks\ in\ CITS1001\ project\ 1.\r\n\r\n\ @author\ \ Rachel\ Cardell-Oliver\r\n\ @version\ August\ 2019\r\n
+comment1.params=
+comment1.target=TestGPSpingPhase2()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ TestGPSping\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture\ with\ some\ sample\ GPSpings\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ testGPSping()
+comment3.text=\r\n\ Check\ GPSping\ constructor\ with\ legal\ inputs\r\n\ Double\ equality\ is\ checked\ to\ precision\ 0.000001\r\n\ Repeated\ test\ case\ from\ Phase1\r\n\ \r\n
+comment4.params=
+comment4.target=void\ testTimeTo()
+comment5.params=
+comment5.target=void\ testdistTo()
+comment5.text=\r\n\ Test\ that\ distTo\ measure\ is\ accurate\ for\ known\ distances\ and\ symmetric\r\n
+numComments=6

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=UseCases
+comment0.text=\r\n\ Utility\ class\ with\ use\ cases\ to\ demonstrate\ the\ Trip\ project.\r\n\ This\ class\ is\ provided\ to\ help\ you\ test\ your\ project.\r\n\ It\ can\ be\ used\ to\ generate\ a\ random\ trip,\ print\ a\ summary\ to\ the\ terminal\ \r\n\ and\ write\ the\ trip\ coordinates\ to\ a\ file\ LeafletMapData.csv\ for\ \r\n\ display\ by\ LeafletMapDemo.html\r\n\r\n\ @author\ Rachel\ Cardell-Oliver\r\n\ @version\ August\ 2019\r\n
+comment1.params=
+comment1.target=UseCases()
+comment2.params=
+comment2.target=void\ runTestUseCase()
+comment2.text=\r\n\ Use\ sample\ data\ in\ file\ "./TestTrip.csv"\ to\ create\ a\ Trip\r\n\ and\ write\ it\ to\ "./LeafletMapData.txt"\ for\ viewing\ with\ "LeafletMapDemo.html"\r\n
+comment3.params=numEntries
+comment3.target=void\ runRandomUseCase(int)
+comment3.text=\r\n\ Generate\ a\ random\ trip\ file\ with\ numEntries\ pings\r\n\ and\ write\ it\ to\ "./LeafletMapData.txt"\ for\ viewing\ with\ "LeafletMapDemo.html"\r\n\ @param\ numEntries\ number\ of\ pings\ in\ the\ trip\r\n
+numComments=4

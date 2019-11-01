@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=GPSping
+comment0.text=\r\n\ In\ this\ project\ I\ will\ write\ a\ Java\ application\ to\ create\ and\ analyse\ GPS\ traces.\r\n\ \r\n\ @author\ Wang\ Sihan\r\n\ @student\ number\:22544832\r\n\ @version\ 12/09/2019\r\n
+comment1.params=lat\ lon\ time
+comment1.target=GPSping(double,\ double,\ int)
+comment1.text=\r\n\ Constructor\r\n
+comment2.params=
+comment2.target=double\ getLat()
+comment2.text=\r\n\ @Return\ the\ latitude\ of\ ping\r\n
+comment3.params=
+comment3.target=double\ getLon()
+comment3.text=\r\n\ @Return\ the\ longtitude\ of\ ping\r\n
+comment4.params=
+comment4.target=int\ getTime()
+comment4.text=\r\n\ @Return\ the\ time\ of\ ping\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ @Generate\ a\ String\ as\ a\ comma\ separated\ lat,lon,time\ triple\ for\ this\ GPSping.\ \r\n
+comment6.params=anotherPing
+comment6.target=int\ timeTo(GPSping)
+comment7.params=anotherPing
+comment7.target=int\ distTo(GPSping)
+numComments=8

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=TestTripPhase2
+comment0.text=\r\n\ The\ test\ class\ TestTripPhase2\r\n\ For\ Trip\ class\ phase\ 2\ tasks\ in\ CITS1001\ project\ 1.\r\n\r\n\ @author\ \ Rachel\ Cardell-Oliver\r\n\ @version\ August\ 2019\r\n
+comment1.params=
+comment1.target=TestTripPhase2()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ TestTrip\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ testLength()
+comment4.params=
+comment4.target=void\ testBoundsSimple()
+comment5.params=
+comment5.target=void\ testBoundsBox()
+comment6.params=
+comment6.target=void\ testTimeZoom()
+comment7.params=
+comment7.target=void\ testSpaceZoom()
+numComments=8

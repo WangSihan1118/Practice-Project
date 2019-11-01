@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=FileIO
+comment0.text=\r\n\ Utility\ class\ for\ reading\ and\ writing\ files\ for\ Trip\ objects.\r\n\ See\ UseCases.java\ for\ example\ code.\r\n\r\n\ @author\ Rachel\ Cardell-Oliver\r\n\ @version\ August\ 2019\r\n
+comment1.params=
+comment1.target=FileIO()
+comment2.params=numEntries\ outFilename
+comment2.target=boolean\ createRandomTripFile(int,\ java.lang.String)
+comment2.text=\r\n\ Generate\ a\ trip\ of\ random\ GPS\ pings\ around\ Perth\ WA\ and\ \r\n\ write\ lat,lon,time\ triples\ to\ a\ comma\ separated\ file\r\n\ @param\ filename\ The\ file\ to\ write\ in\ csv\ format\r\n\ @param\ numEntries\ How\ many\ ping\ entries\ to\ generate\r\n\ @return\ true\ if\ the\ file\ was\ written\ successfully,\ false\ otherwise.\r\n
+comment3.params=gp\ minDdelta\ maxDdelta\ minTdelta\ maxTdelta\ rand
+comment3.target=GPSping\ randomStep(GPSping,\ int,\ int,\ int,\ int,\ java.util.Random)
+comment3.text=\r\n\ Calculate\ a\ random\ GPSping\ offset\ from\ a\ given\ one\ in\ N,S,E,W\ direction\r\n\ Distance\ conversion\ source\r\n\ http\://jonisalonen.com/2014/computing-distance-between-coordinates-can-be-simple-and-fast/\r\n\ @param\ GPSping\ the\ current\ position\r\n\ @param\ minDdelta\ int\ minimum\ meters\ to\ next\ ping\ (approximately)\r\n\ @param\ maxDdelta\ int\ maximum\ meters\ to\ next\ ping\ (approximately)\r\n\ @param\ minTdelta\ int\ minimum\ seconds\ to\ next\ ping\r\n\ @param\ maxTdelta\ int\ maximum\ seconds\ to\ next\ ping\r\n\ @return\ GPSping\ the\ next\ position\r\n
+comment4.params=inputline
+comment4.target=GPSping\ makePingFromString(java.lang.String)
+comment4.text=\r\n\ Generate\ a\ GPSping\ object\ from\ an\ input\ String\ such\ as\ "-31.953512,115.857048,1565063614"\r\n\ @param\ String\ input\ in\ form\ lat,lon,time\ \r\n\ @return\ GPSping\ object\ for\ the\ lat,lon,time\ in\ the\ String\ input\r\n
+comment5.params=inFilename
+comment5.target=Trip\ readTripFile(java.lang.String)
+comment5.text=\r\n\ Read\ a\ csv\ file\ of\ lat,lon,time\ trips\ and\ generate\ a\ Trip\ object\ from\ the\ data.s\r\n\ @param\ inFilename\ The\ file\ to\ read.\ Lines\ must\ be\ in\ the\ format\ lat,lon,time.\r\n\ @return\ Trip\ a\ Trip\ object\ containing\ a\ GPSping\ for\ each\ line\ from\ the\ file\r\n
+comment6.params=trip\ outFilename
+comment6.target=boolean\ saveTripToFile(Trip,\ java.lang.String)
+comment6.text=\r\n\ Save\ a\ Trip\ object\ to\ a\ comma\ separated\ text\ file\ with\ one\ line\ for\ each\ ping\r\n\ @param\ trip\ a\ Trip\ object\ to\ be\ saved\r\n\ @param\ outFilename\ The\ file\ to\ be\ written.\r\n\ @return\ true\ if\ the\ file\ was\ written\ successfully,\ false\ otherwise.\r\n
+comment7.params=trip
+comment7.target=boolean\ writeLeafletTripFile(Trip)
+comment7.text=\r\n\ Save\ a\ Trip\ object\ to\ a\ text\ file\ as\ a\ javascript\ object\ for\ a\ Leaflet\ map\r\n\ that\ will\ be\ read\ by\ the\ web\ page\ LeafletMapDemo.html\r\n\ Example\ of\ file\ format\r\n\ var\ triplatlngs\ \=\ [\r\n\ \ \ \ \ [-31.953457559397332,115.85719831939637],\r\n\ \ \ \ \ [-31.953281300532204,115.85736955087513]\ ]\r\n\ The\ output\ file\ will\ be\ called\ "LeafletMapData.txt"\ and\ be\ written\ in\ the\ current\ directory.\r\n\ @param\ trip\ a\ Trip\ object\ to\ be\ saved\r\n\ @return\ true\ if\ the\ file\ was\ written\ successfully,\ false\ otherwise.\r\n
+numComments=8
